@@ -1,0 +1,84 @@
+.all, .header {
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  color: #ff0000;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 100px; margin-right: 100px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.stand {
+  font-size: 100px;
+}
+.stand {
+  padding-bottom: 200px;
+}
+
+
+
+
+
+.body {
+  background-color: #000000;
+}
+
+.header {
+  font-size: 24px;
+  text-align: center;
+  font-family: Stencil Std, fantasy;
+  font-style: normal;
+
+}
+
+
+.home {
+  text-align: left;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.home_page {
+  font-size: 24px;
+}
+
+.main_page {
+  margin-left: 150px;
+}
+.contact_page {
+  margin-right: 150px;
+}
+
+
+
+.video-window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-window iframe {
+  width: 70%;
+  height: 70%;
+}
+
+
+
+.video-window iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  width: 50%;
+  height: 50%;
+}

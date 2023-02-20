@@ -1,0 +1,117 @@
+.body {
+  background-color: #b95555;
+  margin-bottom: 200px;
+}
+
+.header {
+  font-size: 24px;
+  text-align: center;
+  font-family: Stencil Std, fantasy;
+  font-style: normal;
+
+}
+
+
+.home {
+  text-align: left;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.home_page {
+  font-size: 24px;
+}
+
+.main_page {
+  margin-left: 150px;
+}
+.contact_page {
+  margin-right: 150px;
+}
+
+
+
+.party {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-style: inherit;
+  color: palegreen;;
+  margin-bottom: 20px;
+}
+
+/* >>>>>> bullet images block css starts here >>>>>> */
+
+.slideshow-container {
+  /*position: relative; diff? */
+  margin: auto;
+  width: 80%;
+  height: 500px;
+  overflow: hidden;
+  border: 10px solid black;
+  background-color: wheat;
+}
+
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-container {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* fit the image within the container */
+}
+
+
+/* transcation animation */
+
+
+
+
+
+.prev,
+.next {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: wheat;
+}
+
+.prev {
+  left: 20px;
+  margin-left: 20px;
+}
+
+
+.next {
+  right: 20px;
+  margin-right: 20px;
+}
+
+
+
+.prev.disabled,
+.next.disabled {
+  color: white;
+  background-color: gray;
+}
+/* <<<<<< bulletimges block css ends here <<<<<< */
